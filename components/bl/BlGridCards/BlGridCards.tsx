@@ -33,8 +33,6 @@ const images = [
 
 export default function BlGridCards() {
   return (
-    <div className={lcs.el}>
-      <ElParallaxScroll images={images} />
-    </div>
+    <ElParallaxScroll images={images} />
   )
 }
