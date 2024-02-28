@@ -113,3 +113,21 @@ body {
 body {
   min-height: 100%;
 }
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  height: 100vh;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.link {
+  text-decoration: underline;
+}
