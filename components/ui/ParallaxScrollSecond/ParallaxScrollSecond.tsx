@@ -13,7 +13,7 @@ export const ParallaxScrollSecond = ({
   images: string[]
   className?: string
 }) => {
-  const gridRef = useRef<any>(null);
+  const gridRef = useRef<any>(null)
   const { scrollYProgress } = useScroll({
     container: gridRef,
     offset: ["start start", "end start"],
