@@ -1,0 +1,39 @@
+.el {
+  height: 100vh;
+
+  overflow-y: auto;
+
+  padding-top: 1.5rem;
+  padding-bottom: 15rem;
+}
+
+.grid {
+  display: grid;
+  gap: 2.5rem;
+  align-items: flex-start;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+
+  max-width: 64rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.column {
+  display: grid;
+  gap: 2.5rem;
+}
+
+.image {
+  width: 100%;
+  height: 20rem;
+  border-radius: 0.5rem;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+.card {
+  position: relative;
+}

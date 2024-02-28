@@ -1,6 +1,4 @@
-
 import { ParallaxScroll } from '@/components/ui/ParallaxScroll/ParallaxScroll'
-import lcs from './BlGridCards.module.css'
 
 const images = [
   "/images/1.jpg",
