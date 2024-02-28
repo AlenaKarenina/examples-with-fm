@@ -1,7 +1,6 @@
 import './tailwind.css'
 import './globals.css'
 import Link from 'next/link'
-import { SiteFooter } from '@/components/site/SiteFooter/SiteFooter'
 
 export default function Home() {
   return (

@@ -1,13 +1,10 @@
 import lcs from './SiteFooter.module.css'
+import Link from 'next/link'
 
 export function SiteFooter({ title = '' }) {
   return (
     <footer className={lcs.el}>
-      <a
-        href="/"
-      >
-        {title}
-      </a>
+      <Link href={'/'}>{title}</Link>
     </footer>
   );
 }
