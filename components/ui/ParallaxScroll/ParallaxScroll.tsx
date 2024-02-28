@@ -4,9 +4,9 @@ import { useRef } from 'react'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import cn from 'classnames'
-import lcs from './ElParallaxScroll.module.css'
+import lcs from './ParallaxScroll.module.css'
 
-export const ElParallaxScroll = ({
+export const ParallaxScroll = ({
   images,
   className,
 }: {

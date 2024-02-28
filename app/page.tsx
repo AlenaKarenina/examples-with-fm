@@ -8,6 +8,7 @@ export default function Home() {
       <h1 className='title'>Examples animation with framer-motion</h1>
       <Link className='link' href={'/parallax-cards'}>Parallax cards</Link>
       <Link className='link' href={'/stagger-cards'}>Stagger cards</Link>
+      <Link className='link' href={'/marquee'}>Marquee</Link>
     </main>
   )
 }

@@ -1,4 +1,5 @@
-import { ElParallaxScroll } from '@/components/el/ElParallaxScroll/ElParallaxScroll'
+
+import { ParallaxScroll } from '@/components/ui/ParallaxScroll/ParallaxScroll'
 import lcs from './BlGridCards.module.css'
 
 const images = [
@@ -33,6 +34,6 @@ const images = [
 
 export default function BlGridCards() {
   return (
-    <ElParallaxScroll images={images} />
+    <ParallaxScroll images={images} />
   )
 }
