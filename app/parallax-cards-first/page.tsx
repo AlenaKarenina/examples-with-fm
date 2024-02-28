@@ -1,11 +1,10 @@
-import { LayoutInner } from "@/components/LayoutInner"
 import BlGridCards from "@/components/bl/BlGridCards/BlGridCards"
-import { SiteFooter } from "@/components/site/SiteFooter/SiteFooter"
+import { SiteLayoutInner } from "@/components/site/SiteLayoutInner"
 
 export default function Page() {
   return (
-    <LayoutInner>
+    <SiteLayoutInner>
       <BlGridCards />
-    </LayoutInner>
+    </SiteLayoutInner>
   )
 }

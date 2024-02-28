@@ -1,10 +1,10 @@
-import BlCards from "@/components/bl/BlCards/BlCards"
+import { MarqueeText } from "@/components/bl/MarqueeText/MarqueeText"
 import { SiteLayoutInner } from "@/components/site/SiteLayoutInner"
 
 export default function Page() {
   return (
     <SiteLayoutInner>
-      <BlCards />
+      <MarqueeText />
     </SiteLayoutInner>
   )
 }

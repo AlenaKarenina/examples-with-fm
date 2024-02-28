@@ -10,7 +10,7 @@ export default function Home() {
       <Link className='link' href={'/parallax-cards-first'}>Parallax cards first</Link>
       <Link className='link' href={'/parallax-cards-second'}>Parallax cards second</Link>
       <Link className='link' href={'/stagger-cards'}>Stagger cards</Link>
-      <Link className='link' href={'/marquee'}>Marquee</Link>
+      <Link className='link' href={'/marquee-text'}>Marquee text</Link>
     </main>
   )
 }
