@@ -2371,6 +2371,10 @@ select {
   height: 40rem
 }
 
+.h-\[60rem\] {
+  height: 60rem
+}
+
 .h-\[4px\] {
   height: 4px
 }
