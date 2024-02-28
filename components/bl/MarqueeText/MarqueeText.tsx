@@ -1,6 +1,6 @@
 'use client'
-import { useRef } from 'react'
-import lcs from './Marquee.module.css'
+import { useRef, FC } from 'react'
+import lcs from './MarqueeText.module.css'
 import {
   motion,
   useScroll,
@@ -17,7 +17,7 @@ interface MarqueeProps {
   baseVelocity: number
 }
 
-function ParallaxText({ children, baseVelocity = 100 }: MarqueeProps) {
+const ParallaxText: FC<MarqueeProps> = ({ children, baseVelocity = 100 }) => {
   const baseX = useMotionValue(0)
 
   const { scrollY } = useScroll()
@@ -53,18 +53,17 @@ function ParallaxText({ children, baseVelocity = 100 }: MarqueeProps) {
   return (
     <div className={lcs.parallax}>
       <motion.div className={lcs.scroller} style={{ x }}>
-        <span>{children} </span>
-        <span>{children} </span>
-        <span>{children} </span>
-        <span>{children} </span>
-        <span>{children} </span>
-        <span>{children} </span>
+        {Array.from({ length: 6 }).map((item, i) => {
+          return (
+            <span key={i}>{children} </span>
+          )
+        })}
       </motion.div>
     </div>
   )
 }
 
-const Marquee = () => {
+export const MarqueeText = () => {
   return (
     <section className={lcs.el}>
       <ParallaxText baseVelocity={-5}>Framer Motion</ParallaxText>
@@ -72,5 +71,3 @@ const Marquee = () => {
     </section>
   )
 }
-
-export default Marquee

@@ -1,7 +1,7 @@
-import Marquee from "@/components/bl/Marquee/Marquee"
+import { MarqueeText } from "@/components/bl/MarqueeText/MarqueeText"
 
 export default function Page() {
   return (
-    <Marquee />
+    <MarqueeText />
   )
 }
