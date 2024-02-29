@@ -6,9 +6,9 @@ import {
   useTransform
 } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import lcs from './ParallaxScrollThird.module.css'
+import lcs from './ExampleParallaxThird.module.css'
 
-const ParallaxScrollThird = () => {
+const ExampleParallaxThird = () => {
 
   const { scrollY } = useScroll()
 
@@ -21,11 +21,15 @@ const ParallaxScrollThird = () => {
   })
 
   const variants = {
-    visible: { opacity: 1, scale: 1, y: 0 },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      y: 0
+    },
     hidden: {
       opacity: 0,
       scale: 0.65,
-      y: 50
+      y: 100
     }
   }
 
@@ -36,9 +40,7 @@ const ParallaxScrollThird = () => {
         className={lcs.box}
         style={{ y: y2, x: 50, background: 'salmon' }}
       />
-      <div style={{ height: 500 }} />
       <div style={{ position: 'fixed', top: 0, left: 0 }}>
-        {''}
         {'is in view? ' + inView}
       </div>
       <motion.div
@@ -52,4 +54,4 @@ const ParallaxScrollThird = () => {
   );
 }
 
-export default ParallaxScrollThird
+export default ExampleParallaxThird

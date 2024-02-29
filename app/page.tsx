@@ -9,8 +9,9 @@ export default function Home() {
       <Link className='link' href={'/parallax-cards-first'}>Parallax cards first</Link>
       <Link className='link' href={'/parallax-cards-second'}>Parallax cards second</Link>
       <Link className='link' href={'/parallax-cards-third'}>Parallax cards third</Link>
-      <Link className='link' href={'/stagger-cards'}>Stagger cards</Link>
+      {/*<Link className='link' href={'/stagger-cards'}>Stagger cards</Link>*/}
       <Link className='link' href={'/marquee-text'}>Marquee text</Link>
+      <Link className='link' href={'/example-scroll'}>Scroll animation with image shadow</Link>
     </main>
   )
 }

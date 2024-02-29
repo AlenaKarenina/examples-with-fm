@@ -1,10 +1,10 @@
-import ExampleParallaxThird from "@/components/bl/ExampleParallaxThird/ExampleParallaxThird"
+import ExampleScroll from "@/components/bl/ExampleScroll/ExampleScroll"
 import { SiteLayoutInner } from "@/components/site/SiteLayoutInner"
 
 export default function Page() {
   return (
     <SiteLayoutInner>
-      <ExampleParallaxThird />
+      <ExampleScroll />
     </SiteLayoutInner>
   )
 }
