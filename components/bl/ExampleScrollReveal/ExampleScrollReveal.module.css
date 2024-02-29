@@ -1,0 +1,31 @@
+.el {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0 2rem;
+  margin: auto;
+
+  overflow-x: hidden;
+}
+
+.card {
+  width: calc(50vw - 3rem);
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  padding: 0px 10px 10px 10px;
+  margin: 20px 0;
+  background-color: #333;
+}
+
+.card:nth-child(odd) {
+  align-self: flex-end;
+  background-color: #120443;
+}
+
+.cardText {
+  font-size: 1.5rem;
+  color: #fff;
+}

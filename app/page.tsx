@@ -12,6 +12,7 @@ export default function Home() {
       {/*<Link className='link' href={'/stagger-cards'}>Stagger cards</Link>*/}
       <Link className='link' href={'/marquee-text'}>Marquee text</Link>
       <Link className='link' href={'/example-scroll'}>Scroll animation with image shadow</Link>
+      <Link className='link' href={'/example-scroll-reveal'}>Scroll animation reveal cards</Link>
     </main>
   )
 }
