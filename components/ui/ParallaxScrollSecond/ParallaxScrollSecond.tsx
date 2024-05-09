@@ -36,7 +36,6 @@ export const ParallaxScrollSecond = ({
     >
       <div
         className={lcs.grid}
-        ref={gridRef}
       >
         <div className={lcs.column}>
           {firstPart.map((el, idx) => (

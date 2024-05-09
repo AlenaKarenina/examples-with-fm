@@ -117,19 +117,32 @@ body {
 
 body {
   min-height: 100%;
+  position: relative;
 }
 
 html {
   scroll-snap-type: y mandatory;
 }
 
-.main {
+/*body.loading {
+  overflow: hidden;
+  height: 100vh;
+}*/
+
+.box {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   gap: 0.5rem;
-  height: 100vh;
+  min-height: 100vh;
+  padding-top: 5rem;
+  padding-bottom: 15rem;
+}
+
+.wrapper {
+  column-count: 2;
+  column-gap: 16px;
 }
 
 .title {
@@ -139,5 +152,6 @@ html {
 }
 
 .link {
+  display: block;
   text-decoration: underline;
 }
