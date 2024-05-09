@@ -13,11 +13,8 @@ export const ParallaxScroll = ({
   images: string[];
   className?: string;
 }) => {
-  const gridRef = useRef<any>(null);
-  const { scrollYProgress } = useScroll({
-    container: gridRef,
-    offset: ["start start", "end start"],
-  })
+
+  const { scrollYProgress } = useScroll()
 
   const translateYFirst = useTransform(scrollYProgress, [0, 1], [0, -200])
   const translateXFirst = useTransform(scrollYProgress, [0, 1], [0, -200])
@@ -34,14 +31,8 @@ export const ParallaxScroll = ({
   const thirdPart = images.slice(2 * third)
 
   return (
-    <div
-      className={cn(lcs.el, className)}
-      ref={gridRef}
-    >
-      <div
-        className={lcs.grid}
-        //ref={gridRef}
-      >
+    <div className={cn(lcs.el, className)}>
+      <div className={lcs.grid}>
         <div className={lcs.column}>
           {firstPart.map((el, idx) => (
             <motion.div
