@@ -23,4 +23,8 @@ export const LINKS_MOCKS = [
     title: 'Scroll animation reveal cards',
     href: '/example-scroll-reveal'
   },
+  {
+    title: 'Container scroll',
+    href: '/container-scroll'
+  },
 ]

@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { motion, useScroll, useVelocity } from 'framer-motion'
 import lcs from './SiteNavBar.module.css'
 
-export function SiteNavbar() {
+export function SiteNavbar({ title = 'Scroll-away Navbar' }) {
 
   // if we are sliding out a nav bar at the top of the screen, this will be it's height
   const slideDistance = 80
@@ -48,7 +48,7 @@ export function SiteNavbar() {
       transition={{ duration: 0.2, delay: 0.25, ease: 'easeInOut' }}
       style={{ height: slideDistance }}
     >
-      Scroll-away Navbar
+      {title}
     </motion.div>
   );
 }
