@@ -8,16 +8,8 @@ export const LINKS_MOCKS = [
     href: '/parallax-cards-second'
   },
   {
-    title: 'Marquee text',
-    href: '/marquee-text'
-  },
-  {
     title: 'Scroll animation with image shadow',
     href: '/example-scroll'
-  },
-  {
-    title: 'Scroll animation reveal cards',
-    href: '/example-scroll-reveal'
   },
   {
     title: 'Container scroll',
@@ -26,5 +18,9 @@ export const LINKS_MOCKS = [
   {
     title: 'Infinity scroll',
     href: '/infinity-scroll'
+  },
+  {
+    title: 'Scrolled boxes',
+    href: '/scrolled-boxes'
   },
 ]
