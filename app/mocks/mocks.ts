@@ -23,4 +23,8 @@ export const LINKS_MOCKS = [
     title: 'Container scroll',
     href: '/container-scroll'
   },
+  {
+    title: 'Infinity scroll',
+    href: '/infinity-scroll'
+  },
 ]
