@@ -42,11 +42,11 @@ export default function BlInfinityScroll() {
 
   return (
     <div className={lcs.container}>
-      <h1>
+      {/*<h1>
         {window.IntersectionObserver
           ? '🥳 IntersectionObserver supported'
           : '😫 IntersectionObserver not supported'}
-      </h1>
+      </h1>*/}
       <List items={items} />
       <motion.button
         // Change the key with the loaded items length to
@@ -56,8 +56,7 @@ export default function BlInfinityScroll() {
         // Pairing this with once: true will ensure just one
         // network request per load
         viewport={{
-          once: true,
-          margin: '0px'
+          once: true
         }}
         onViewportEnter={fetchItems}
         onClick={fetchItems}
