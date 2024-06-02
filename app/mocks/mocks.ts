@@ -20,7 +20,7 @@ export const LINKS_MOCKS = [
     href: '/infinity-scroll'
   },
   {
-    title: 'Scrolled boxes',
-    href: '/scrolled-boxes'
+    title: 'Tabs',
+    href: '/tabs'
   },
 ]
