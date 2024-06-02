@@ -4,6 +4,7 @@ import './globals.css'
 import Link from 'next/link'
 import { LayoutGroup, AnimatePresence } from 'framer-motion'
 import { LINKS_MOCKS } from '@/app/mocks/mocks'
+import { useAnimatedCounter } from '@/hooks/useAnimatedCounter'
 
 export default function Home() {
 

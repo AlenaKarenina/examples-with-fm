@@ -8,10 +8,6 @@ export const LINKS_MOCKS = [
     href: '/parallax-cards-second'
   },
   {
-    title: 'Parallax cards third',
-    href: '/parallax-cards-third'
-  },
-  {
     title: 'Marquee text',
     href: '/marquee-text'
   },
