@@ -103,7 +103,8 @@ export default function Example() {
             initial={{ opacity: i === selected ? 1 : 0, zIndex: i === selected ? 1 : -1 }}
             animate={{ opacity: i === selected ? 1 : 0, zIndex: i === selected ? 1 : -1 }}
             transition={{ duration }}
-            key={i}>
+            key={i}
+          >
             {content}
           </motion.div>
         ))}

@@ -1,0 +1,33 @@
+.grid {
+  position: relative;
+
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+
+  padding: 2.5rem 20rem;
+}
+
+.card {
+  height: 20rem;
+  cursor: pointer;
+
+  color: white;
+}
+
+.cardInner {
+  position: relative;
+  overflow: hidden;
+}
+
+.cardAbsolute {
+  z-index: 1;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+
+  width: 40%;
+  aspect-ratio: 1;
+
+  border-radius: 1.5rem;
+}

@@ -23,4 +23,8 @@ export const LINKS_MOCKS = [
     title: 'Tabs',
     href: '/tabs'
   },
+  {
+    title: 'Layout Grid',
+    href: '/layout-grid'
+  },
 ]

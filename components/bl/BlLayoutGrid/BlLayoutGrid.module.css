@@ -1,0 +1,23 @@
+.el {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.spanTwo {
+  grid-column: span 2 / span 2;
+}
+
+.spanOne {
+  grid-column: span 1 / span 1;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.text {
+  font-size: 1rem;
+}
