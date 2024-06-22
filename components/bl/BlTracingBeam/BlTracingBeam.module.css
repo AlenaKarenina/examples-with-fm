@@ -1,0 +1,73 @@
+.el {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 15rem;
+  padding-top: 2rem;
+
+  width: 100%;
+  min-height: 100vh;
+  max-width: 56rem;
+  margin: auto;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+  position: relative;
+
+  padding-top: 1rem;
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item {
+  margin-bottom: 5rem;
+}
+
+.title {
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.badge {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  width: fit-content;
+
+  font-size: .875rem;
+  line-height: 1.25rem;
+
+  background-color: black;
+  color: white;
+  border-radius: 9999px;
+}
+
+.text {
+  font-size: .875rem;
+  line-height: 1.25rem;
+
+  color: #444;
+}
+
+.text p:not(:last-of-type) {
+  margin-bottom: 1.1428571em;
+}
+
+.text p:not(:first-of-type) {
+  margin-top: 1.1428571em;
+}
+
+.image {
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+
+  border-radius: 1rem;
+
+  margin-bottom: 1.1428571em;
+  margin-top: 1.1428571em;
+}

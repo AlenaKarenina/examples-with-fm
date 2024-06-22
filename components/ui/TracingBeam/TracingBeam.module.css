@@ -1,0 +1,15 @@
+.el {
+  position: relative;
+
+  display: flex;
+  gap: 3rem;
+}
+
+.inner {
+  padding-top: 1.25rem;
+}
+
+.svg {
+  display: block;
+  margin-left: 1rem;
+}

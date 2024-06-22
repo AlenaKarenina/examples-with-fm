@@ -27,4 +27,8 @@ export const LINKS_MOCKS = [
     title: 'Layout Grid',
     href: '/layout-grid'
   },
+  {
+    title: 'Tracing beam',
+    href: '/tracing-beam'
+  },
 ]
